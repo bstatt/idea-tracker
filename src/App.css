@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.idea-card-container {
+  border: 1px solid black;
+  margin: 10px;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.idea-image {
+  width: 100%;
+}

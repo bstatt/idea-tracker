@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import IdeaCard from './components/IdeaCard.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <p className="">My Ideas</p>
+        <IdeaCard idea='Statt Shades' desc='subscription service for sunglasses' ideaImage='https://kellyeyecenter.com/wp-content/uploads/2018/08/sunglasses.jpg'/>
+        <IdeaCard idea='2' desc='idea two'/>
+        <IdeaCard/>
+        <IdeaCard/> 
       </div>
     );
   }
